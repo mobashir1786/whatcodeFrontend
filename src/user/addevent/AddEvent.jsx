@@ -81,7 +81,7 @@ const AddEvent = () => {
     }
 
 const handleAddtoCart=()=>{
-    axios.post("https://reflect-backend-p9344y5gu-mobashir1786.vercel.app/addtocart", { prod_id:eventid,token:cookie,hallQuantity:{h1:h1,h2:h2,h3:h3} })
+    axios.post("https://whatcode-backend.vercel.app/addtocart", { prod_id:eventid,token:cookie,hallQuantity:{h1:h1,h2:h2,h3:h3} })
             .then(res => {
                 // console.log(res)
             }).catch(e => {
