@@ -20,7 +20,7 @@ const CityList = () => {
   function handlerToSearch(){
     let str = document.getElementById("searchText").value;
     console.log(str);
-    window.location.href = "http://localhost:3000/search/"+str
+    window.location.href = "https://whatcode-frontend.vercel.app/search/"+str
   }
   function contactHandler(){
     alert("Team Will Contact You Soon! Thank You")

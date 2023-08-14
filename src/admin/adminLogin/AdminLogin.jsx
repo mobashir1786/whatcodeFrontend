@@ -16,7 +16,7 @@ const AdminLogin = () => {
                 console.log(res)
                 if (res.data.key === 1) {
                     document.cookie = "token=" + res.data.token + "; expires=" + Date.now() + 1 * 24 * 60 * 60 * 1000;
-                    window.location.href = 'http://localhost:3000/admin/home'
+                    window.location.href = 'https://whatcode-frontend.vercel.app/admin/home'
                 } else {
                     alert(res.data.message);
                 }
