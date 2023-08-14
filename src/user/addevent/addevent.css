@@ -1,0 +1,162 @@
+.addevent {
+    background-color: #ccc6c6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.availablehall {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+
+.hall {
+    width: 25%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 2vw;
+}
+
+.hall1 {
+    background-color: rgb(26, 176, 6);
+}
+
+.hall2 {
+    background-color: rgb(255, 132, 0);
+}
+
+.hall3 {
+    background-color: rgb(128, 121, 112);
+}
+
+.colorcode {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.h1 {
+    color: rgb(26, 176, 6);
+}
+
+.h2 {
+    color: rgb(255, 132, 0);
+}
+
+.h3 {
+    color: rgb(128, 121, 112);
+}
+
+.hc {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.green {
+    background-color: rgb(26, 176, 6);
+}
+
+.orange {
+    background-color: rgb(255, 132, 0);
+}
+
+.brown {
+    background-color: rgb(128, 121, 112);
+}
+
+.hallbooking {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.h1sqmt {
+    display: flex;
+}
+
+.hallsqmt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.price {
+    margin: 0 10px;
+}
+
+.hallbookingBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.h3last {
+    margin-bottom: 50px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: rgb(128, 121, 112);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.addtocartbtn {
+    width: 20%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(90deg, rgb(239, 88, 149), rgb(248, 14, 107));
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.gobackBtn {
+    width: 100%;
+    height: 50px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.gobackBtn>a {
+    text-decoration: none;
+    color: #3d3c3c;
+}
+
+/* .addevent>hr {
+    background-color: #b0aeae;
+    color: #7b7979;
+} */

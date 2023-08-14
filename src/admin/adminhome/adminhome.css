@@ -1,0 +1,17 @@
+.adminhome {
+    width: 100%;
+}
+
+.admincontent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.eventList {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}

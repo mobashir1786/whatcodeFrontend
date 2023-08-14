@@ -1,0 +1,99 @@
+.userloginbox {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf6f6;
+}
+
+.userloginleftbox {
+    width: 50%;
+    height: 100%;
+}
+
+.userloginleftbox>img {
+    width: 100%;
+    height: 100%;
+}
+
+.userloginrightbox {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.userloginrightbox>input {
+    width: 70%;
+    height: 50px;
+    margin: 2% 15%;
+    border: 1px solid #898888;
+    color: #898888;
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color: #faf6f6;
+    outline: none;
+}
+
+.userloginrightbox>label {
+    color: #898888;
+    margin: 2% 15%;
+    cursor: pointer;
+}
+
+.userloginrightbox>h1 {
+    margin: 2% 15%;
+}
+
+.userloginrightbox>button {
+    width: 70%;
+    height: 50px;
+    margin: 2% 15%;
+    background-image: linear-gradient(90deg, rgb(245, 72, 141), rgb(248, 14, 107));
+    border: none;
+    border-radius: 25px;
+    color: #faf6f6;
+    font-size: 2rem;
+}
+
+.gotosignup {
+    width: 70%;
+    margin: 2% 15%;
+    text-decoration: none;
+    font-size: 14px;
+    color: #898888;
+}
+
+.signupwith {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftline {
+    width: 20%;
+    height: 5px;
+    background-color: #898888;
+    background-image: linear-gradient(90deg, white, rgb(248, 14, 107));
+    border: none;
+}
+
+.rightline {
+    width: 20%;
+    height: 5px;
+    background-color: #898888;
+    background-image: linear-gradient(90deg, rgb(248, 14, 107), white);
+    border: none;
+}
+
+.signuplogo>img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+.wave>img {
+    width: 100%;
+    height: 10%;
+}
