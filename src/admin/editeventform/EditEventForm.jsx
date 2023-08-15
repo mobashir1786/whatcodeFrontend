@@ -1,11 +1,14 @@
 import React from 'react'
-import './addevent.css'
+import './editeventform.css'
+import { useParams } from 'react-router-dom'
 import Navbar from '../../user/navbar/Navbar';
 import Sidebar from '../sidebar/Sidebar';
 import axios from 'axios';
 
 
-const AddEvent = () => {
+const EditEventForm = () => {
+  let eventId = useParams().eventid;
+  // console.log(eventid);
   const handleSubmit = (event) => {
         event.preventDefault();
         const eventName = event.target[0].value;
@@ -22,15 +25,16 @@ const AddEvent = () => {
            alert("Please fill description also.")
           return;
         }
-        axios.post("https://whatcode-backend.vercel.app/createEvent", { eventName, location, capacity, date, detail, viewable})
+        axios.post("https://whatcode-backend.vercel.app/updateeventByid", { eventId, eventName, location, capacity, date, detail, viewable})
             .then(res => {
                 console.log(res);
-                alert("Event Successfully Created");
+                alert("Event Successfully Updated");
                 window.location.href = "https://whatcode-frontend.vercel.app/admin/home"
             }).catch(e => {
                 console.log(e);
             })
     }
+
   return (
     <div className='adminhome'>
       <Navbar/>
@@ -73,7 +77,7 @@ const AddEvent = () => {
                 <label >No</label>
               </div>
             </div>
-            <button type='submit'>Add</button>
+            <button type='submit'>Update</button>
           </form>
         </div>
       </div>
@@ -81,4 +85,4 @@ const AddEvent = () => {
   )
 }
 
-export default AddEvent
+export default EditEventForm

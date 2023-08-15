@@ -1,7 +1,29 @@
 .admincard {
     width: 250px;
     height: 300px;
-    background-color: aqua;
+    background-color: rgb(166, 159, 159);
     border-radius: 20px;
-    margin: 10px;
+    margin: 20px;
+    color: white;
+
+    font-weight: 600;
+}
+
+.admineventname {
+    width: 100%;
+    font-size: 24px;
+}
+
+/* .adminavailablehall {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+} */
+
+.ah {
+    margin: 0 10px;
+}
+
+.acc {
+    margin: 10px 0;
 }

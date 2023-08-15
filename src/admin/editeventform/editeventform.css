@@ -1,0 +1,68 @@
+.signupbox {
+    width: 100%;
+}
+
+.nameofevenetCommon {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.nameofevenetCommon>input {
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(162, 161, 161);
+    color: rgb(162, 161, 161);
+}
+
+.nameofevenetCommon>textarea {
+    width: 60%;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(162, 161, 161);
+    color: rgb(162, 161, 161);
+}
+
+.capacityOfEventHall {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.capacityOfEventHall>input {
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(162, 161, 161);
+    color: rgb(162, 161, 161);
+}
+
+.capacityOfEventHall>label {
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(162, 161, 161);
+    color: rgb(162, 161, 161);
+}
+
+.nameofevenetCommon>label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.signupbox>button {
+    background-color: rgb(248, 14, 107);
+    font-size: 2rem;
+    color: #faf6f6;
+    border: none;
+    border-radius: 25px;
+    width: 20%;
+    height: 50px;
+    margin: 2% 10%;
+}

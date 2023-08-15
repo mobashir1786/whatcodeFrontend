@@ -9,7 +9,8 @@ import Search from './user/search/Search';
 import AddEvent from './user/addevent/AddEvent';
 import AdminAddEvent from './admin/addevent/AddEvent'
 import AdminHome from './admin/adminhome/AdminHome';
-import AdminEditEvent from './admin/editevent/EditEvent'
+import AdminEditEvent from './admin/editeventform/EditEventForm'
+import EditEvent from './admin/editevent/EditEvent';
 
 function App() {
   let cookie = document.cookie;
@@ -27,7 +28,8 @@ function App() {
           <Route path="/addevent/:prodid" element={<AddEvent />}/>
           <Route path='/admin/home' element={<AdminHome/>}/>
           <Route path='/admin/addevent' element={<AdminAddEvent/>}/>
-          <Route path='/admin/editevent' element={<AdminEditEvent/>}/>
+          <Route path='/editEventBy/:eventid' element={<AdminEditEvent/>}/>
+          <Route path='/admin/editevent' element={<EditEvent/>}/>
         </Routes>
       </BrowserRouter>
     </div>

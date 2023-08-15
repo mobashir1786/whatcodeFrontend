@@ -16,7 +16,7 @@ const AdminHome = () => {
         setEvent(data);
       });
   }, []);
-  console.log(event);
+  // console.log(event);
   return (
     <div className='adminhome'>
       <Navbar/>
@@ -25,7 +25,7 @@ const AdminHome = () => {
         <div className="eventList">
         {
             event.map((n)=>(
-                <Admincard key={n._id} eventname={n.eventName} eventdate={n.date} eventlocation={n.location} h1={n.capacity.h1} h2={n.capacity.h2} h3={n.capacity.h3} viewable={n.location}/>
+                <Admincard edit="none" key={n._id} id={n._id} eventname={n.eventName} eventdate={n.date} eventlocation={n.location} h1={n.capacity.h1} h2={n.capacity.h2} h3={n.capacity.h3} viewable={n.viewable}/>
             ))
         }
         </div>
